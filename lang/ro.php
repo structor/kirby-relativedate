@@ -12,8 +12,8 @@ return array(
   'phrases'  => array(
     'after_now'   => '|:phrase| în viitor',
     'before_now'  => '|:phrase| în urmă',
-    // 'next'        => 'next |:reference|',
-    // 'last'        => 'last |:reference|',
+    'next'        => '|:reference| viitoare',
+    'last'        => '|:reference| trecută',
   ),
 
   'sec' => array('1 secundă',  '|:count| secunde'),
@@ -24,22 +24,22 @@ return array(
   'm'   => array('1 lună',     '|:count| luni'),
   'y'   => array('1 an',       '|:count| ani'),
 
-  /*
+
   'fuzzy' => array(
-    'today' => 'today',
-    '1day'  => array('tomorrow','yesterday'),
+    'today' => 'azi',
+    '1day'  => array('mâine','ieri'),
 
-    'Mon'   => 'Monday',
-    'Tue'   => 'Tuesday',
-    'Wed'   => 'Wednesday',
-    'Thu'   => 'Thursday',
-    'Fri'   => 'Friday',
-    'Sat'   => 'Saturday',
-    'Sun'   => 'Sunday',
+    'Mon'   => 'Luni',
+    'Tue'   => 'Marţi',
+    'Wed'   => 'Miercuri',
+    'Thu'   => 'Joi',
+    'Fri'   => 'Vineri',
+    'Sat'   => 'Sâmbătă',
+    'Sun'   => 'Duminica',
 
-    'week'  => 'week',
-    'month' => 'month',
+    'week'  => 'săptămâna',
+    'month' => 'luna',
   ),
-  */
+
 
 );
